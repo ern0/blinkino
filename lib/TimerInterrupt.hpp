@@ -2,7 +2,7 @@
 # define _TimerInterrupt_hpp
 
 
-# define SEC(n) (50 * n)
+# define SEC(n) (100 * n)
 
 
 void tick();

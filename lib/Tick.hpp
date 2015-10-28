@@ -3,9 +3,9 @@
 
 
 typedef signed long int tick_t;
-# define TICKMIN(m) (50 * 60 * m)
-# define TICKSEC(s) (50 * s)
-# define TICKMILLI(ms) (50 * ms / 1000)
+# define TICKMIN(m) (100 * 60 * m)
+# define TICKSEC(s) (100 * s)
+# define TICKMILLI(ms) (100 * ms / 1000)
 
 class Tick {
 	

@@ -25,9 +25,9 @@
 	ISR(TIMER2_COMPA_vect) {
 	
 		irqdiv++;
-		if (irqdiv < 20) return;
+		if (irqdiv < 10) return;
 		irqdiv = 0;
 		
-		tick();  // 50 Hz
+		tick();  // 100 Hz
 		
 	} // ISR()
